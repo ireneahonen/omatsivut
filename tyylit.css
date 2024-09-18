@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+
+.info{
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.info h1{
+    font-size: 52px;
+}
+
+.info p{
+    margin: 10px 0 40px;
+    font-size: 18px ;
+}
+
+.välilehdet{
+    width: 60%;
+    color: aliceblue;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.välilehdet h2{
+    font-size: 30px;
+}
+.välilehdet p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+
+
+[target]{
+    color: aliceblue;
+} 
+
+.linkit{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.opintoni{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 100px;
+
+}
+.opintoni h1{
+    color:aliceblue ;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.opintoni p{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.opintojono{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.opintojono h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.opintojono p{
+    color: black;
+    font-size: 14px;
+}
+
+
+
+
+.työt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 100px;
+
+}
+.työt h1{
+    color:aliceblue ;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.työt p{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.rivi{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.työjono{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.työjono h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.työjono p{
+    color: black;
+    font-size: 14px;
+}
+
+.valokuvat img{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 250x;
+    height: 200px;
+}
+
+    
+.valokuvat2 img{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 250x;
+    height: 200px;
+}
+.valokuvat3 img{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 250x;
+    height: 200px;
+}
+.valokuvat4 img{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 250x;
+    height: 200px;
+}
+
+.kasvot img{
+    position: absolute;
+    top: 25%;
+    left: 20€;
+    width: 200;
+    height: 300;
+}
